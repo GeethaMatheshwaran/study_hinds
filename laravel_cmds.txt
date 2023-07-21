@@ -1,0 +1,4 @@
+CHECK PHP VERSION --- php -v
+MAKE CONTROLLER --- php artisan make:controller BookCategoryController
+MAKE MODEL WITH TABLE --- php artisan make:model book_category -m
+TABLE CREATION --- php artisan migrate
