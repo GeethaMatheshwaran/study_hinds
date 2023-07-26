@@ -11,3 +11,4 @@ git pull
 HOW TO CLONE THE FOLDER 
 git clone command(cpy+paste)
 ----------------------------------------------------
+git branch -m main
