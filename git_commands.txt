@@ -6,9 +6,12 @@ git remote add origin url(cpy & paste).git
 git push -f origin main
 ----------------------------------------------------
 HOW TO UPDATE THE LOCAL FOLDER FROM GIT
-git pull
+git pull origin main
 ----------------------------------------------------
 HOW TO CLONE THE FOLDER 
 git clone command(cpy+paste)
+install the composer --> composer install
+check the composer   --> composer --version
+set the key          --> php artisan  key:generate
 ----------------------------------------------------
 git branch -m main
