@@ -1,17 +1,23 @@
-HOW TO COMMIT THE FOLDER 
+##HOW TO COMMIT THE FOLDER 
 git init
 git add .
 git commit -m "cmd"
 git remote add origin url(cpy & paste).git
 git push -f origin main
 ----------------------------------------------------
-HOW TO UPDATE THE LOCAL FOLDER FROM GIT
+##HOW TO UPDATE THE LOCAL FOLDER FROM GIT
 git pull origin main
 ----------------------------------------------------
-HOW TO CLONE THE FOLDER 
+##HOW TO CLONE THE FOLDER 
 git clone command(cpy+paste)
 install the composer --> composer install
 check the composer   --> composer --version
 set the key          --> php artisan  key:generate
 ----------------------------------------------------
 git branch -m main
+----------------------------------------------------
+##HOW TO CHANGE MASTER TO MAIN IN LOCAL GIT
+
+git checkout -b main
+git branch -d master -- optional
+----------------------------------------------------
